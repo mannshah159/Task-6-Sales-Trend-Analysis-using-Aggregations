@@ -1,6 +1,6 @@
 # Task-6-Sales-Trend-Analysis-using-Aggregations
 
-SELECT EXTRACT(...) AS ...: We use the EXTRACT() function to pull the $YEAR$ and $MONTH$ from the $order\_date$ column. We assign them clear aliases, $sales\year$ and $sales\month$, for readability.
+SELECT EXTRACT(...) AS ...: We use the EXTRACT() function to pull the $YEAR$ and $MONTH$ from the $order\_date$ column. We assign them clear aliases, $sales \ year$ and $sales \ month$, for readability.
 
 SUM(amount) AS total_revenue: This calculates the sum of all values in the $amount$ column for each group, giving us the total monthly revenue.
 
